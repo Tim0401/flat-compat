@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "hello": "echo \"hello\""
+    "hello": "echo \"hello\"",
+    "mock": "tsc index.ts --watch & node --watch index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.3",

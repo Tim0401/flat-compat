@@ -37,12 +37,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var promises_1 = require("timers/promises");
+var sub_1 = require("./sub");
 var main = function () { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 if (!true) return [3 /*break*/, 2];
                 console.log('Hello World!');
+                (0, sub_1.sub)();
                 return [4 /*yield*/, (0, promises_1.setTimeout)(1000)];
             case 1:
                 _a.sent();
